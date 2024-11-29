@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body{
+  background-color: hsl(0, 0%, 8%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+main{
+  background-color: hsl(0, 0%, 12%);
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+picture{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.avatar{
+  border-radius: 100%;
+  width: 45%;
+}
+
+.sumary{
+  padding: 10px;
+  text-align: center;
+}
+
+h1{
+  font-size: 17pt;
+  font-weight: 600;
+  padding: 2%;
+  color: hsl(0, 0%, 100%);
+}
+
+.address{
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 10pt;
+  padding-bottom: 20px;
+}
+
+.text{
+  color: hsl(0, 0%, 100%);
+  font-size: 10pt;
+}
+
+.sections{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  gap: 15px;
+}
+
+.buttons{
+  background-color: hsl(0, 0%, 20%);
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+}
+
+.buttons:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 404px) {
+  body{
+    padding: 8%;
+  }
+
+  main {
+    width: 90%;
+    padding: 3% 0;
+  }
+
+  h1{
+    font-size: 13pt;
+  }
+
+  .address{
+    font-size: 8pt;
+  }
+
+  .buttons{
+    width: 90%;
+  }
+  
+  .sumary{
+    padding: 0;
+  }
+}
