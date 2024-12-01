@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'Young Serif' : ['Young Serif']
+      'Young Serif' : ['Young Serif'],
+      
     },
     extend: {
       colors:{
