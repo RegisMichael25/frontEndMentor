@@ -11,7 +11,11 @@ export default {
     extend: {
       colors:{
         'whiteTail' : 'hsl(330, 100%, 98%)',
-        'marrom' : 'hsl(24, 5%, 18%)'
+        'marron' : 'hsl(24, 5%, 18%)',
+        'MarronClaro' : 'hsl(30, 10%, 34%)',
+        'rosa' : 'hsl(332, 51%, 32%)',
+        'rose' : 'hsl(330, 100%, 96%)',
+        'ingredients' : 'hsl(14, 45%, 36%)'
       }
     },
   },

@@ -8,7 +8,7 @@ import Nutritions from './Nutritions'
 function App() {
   return (
     <>
-      <main className='w-1/2 bg-whiteTail p-5 rounded-xl'>
+      <main className='w-1/3 bg-whiteTail p-5 rounded-xl'>
         <Header />
         <PreparationTime />
         <Ingredients />
