@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --backgroundBody:hsl(0, 0%, 98%);
+  --titleLight: hsl(229, 6%, 66%);
+  --titleBold: hsl(234, 12%, 34%);
+  --teamBuilder: hsl(0, 78%, 62%);
+  --supervisor: hsl(180, 62%, 55%);
+  --karma: hsl(34, 97%, 64%);
+  --calculator: hsl(212, 86%, 64%);
+  --fontPoppins: "Poppins", sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--backgroundBody);
+  font-family: var(--fontPoppins);
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  padding: 4rem 1rem;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contain-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bold{
+  color: var(--titleBold);
+}
+
+.light{
+  color: var(--titleLight);
+}
+
+.center{
+  text-align: center;
+}
+
+.title-light{
+  font-weight: 300;
+  font-size: 1.6em;
+}
+
+.title-bold{
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+.text{
+  padding: 15px;
+}
+
+.cards{
+  width: 95%;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.212);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.separar{
+  padding: 0;
+  margin: 0;
+}
+
+.text-cards{
+  font-size: 0.9rem;
+  padding: 5px;
+}
+
+.image{
+  width: 100%;
+  height: 100px;
+  text-align: end;
+  padding: 15px;
+}
+
+.supervisor{border-top: 3px solid var(--supervisor);}
+.team-builder{border-top: 3px solid var(--teamBuilder);}
+.karma{border-top: 3px solid var(--karma);}
+.calculator{border-top: 3px solid var(--calculator);}
+
+@media screen and (min-width: 1024px){
+
+  .main-container{
+    width: 100%;
+    padding: 7rem;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .title-bold{
+    font-size: 2em;
+  }
+
+  .title-light{
+    font-size: 1.8em;
+    font-weight: 200;
+  }
+
+  .contain-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .cards{
+    width: 28%;
+    padding: 30px 20px;
+    height: 50%;
+  }
+
+  .separar{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .separar>.cards{
+    width: 100%;
+  }
+
+}
