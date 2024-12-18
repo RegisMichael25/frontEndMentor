@@ -104,46 +104,11 @@ body{
 .calculator{border-top: 3px solid var(--calculator);}
 
 @media screen and (min-width: 1024px){
-
-  .main-container{
-    width: 100%;
-    padding: 7rem;
-  }
-
   .container{
     width: 100%;
   }
-
-  .title-bold{
-    font-size: 2em;
-  }
-
-  .title-light{
-    font-size: 1.8em;
-    font-weight: 200;
-  }
-
+  
   .contain-cards{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
   }
-
-  .cards{
-    width: 28%;
-    padding: 30px 20px;
-    height: 50%;
-  }
-
-  .separar{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-  }
-
-  .separar>.cards{
-    width: 100%;
-  }
-
 }

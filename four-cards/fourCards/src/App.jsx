@@ -17,7 +17,7 @@ function App() {
               <p className='light text-cards'>Monitors activity to identify project roadblocks</p>
               <div className='image'><img src="../images/icon-supervisor.svg" alt="" /></div>
             </div>
-              <div className="separar">
+                <div className="separar">
                 <div className="cards team-builder">
                   <h2 className="bold">Team Builder</h2>
                   <p className='light text-cards'>Scans our talent network to create the optional team for your project</p>
@@ -35,7 +35,6 @@ function App() {
                 <div className="image"><img  src="../images/icon-calculator.svg" alt="" /></div>
               </div>
           </div>
-
         </div>
       </div>
     </>
